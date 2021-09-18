@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+.header,.result{
+    height: 20%;
+}
+.header p{
+    text-align: center;
+    font-size: 3rem;
+    color : crimson;
+    height: 100%;
+    padding: 0.7em;
+}
+.result{
+    display: none;
+}
+.result p {
+    font-size: 1.7rem;
+    text-align: center;
+    width: 100%;
+    color: black;
+    background-color: beige;
+    height: 100%;
+    padding: 1.1em;
+}
+.score{
+    font-weight: bold;
+    color: crimson;
+    font-size: 2.5rem;
+}
+.quiz-section{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-text{
+    height : 20%;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 1.1em;
+}
+.quiz-form{
+    display: flex;
+    flex-direction: column;
+}
+.question{
+    
+    margin : 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.q,.option{
+    padding: 20px;
+    font-size: 1.3em;
+    color : white;
+}
+.submit {
+    text-align: center;
+    padding: 20px;
+}
+.submit-btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}

@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="header">
+        <p>Star Wars Quiz</p>
+    </div>
+    <div class="result">
+        
+            <p>You are <span class="score" name="score">%</span> jedi</p>
+        
+    </div>
+    <div class="quiz-section">
+        <div class="sub-text">
+            May the force be with you !
+        </div>
+        <form class="quiz-form">
+            <div class="question">
+                <p class="q">
+                    1. Who killed Darth Sidious ? 
+                </p>
+                <div class="option">
+                    <input type="radio" name="q1" value="A" checked>
+                    <label for="q1">A. Obi-Wan Kenobi </label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q1" value="B">
+                    <label for="q1">B. Anakin Skywalker </label>
+                </div>
+            </div>
+            <div class="question">
+                <p class="q">
+                    2. Who was the master of Count Dooku?
+                </p>
+                <div class="option">
+                    <input type="radio" name="q2" value="A" checked>
+                    <label for="q2">A. Mace Windu </label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q2" value="B">
+                    <label for="q2">B. Yoda </label>
+                </div>
+            </div>
+            <div class="question">
+                <p class="q">
+                   3. What is the name of the home planet of Princess Amidala? 
+                </p>
+                <div class="option">
+                    <input type="radio" name="q3" value="A" checked>
+                    <label for="q3">A. Coruscant </label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q3" value="B">
+                    <label for="q3">B. Naboo </label>
+                </div>
+            </div>
+            <div class="question">
+                <p class="q">
+                    4. Who was the master of Obi-Wan Kenobi ?
+                </p>
+                <div class="option">
+                    <input type="radio" name="q4" value="A" checked>
+                    <label for="q4">A. Master Plo Koon</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="q4" value="B">
+                    <label for="q4">B. Master Qui-Gon Jinn </label>
+                </div>
+            </div>
+            <div class="submit">
+                <input class="submit-btn"type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
